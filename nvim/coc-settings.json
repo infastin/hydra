@@ -1,0 +1,85 @@
+{
+	"diagnostic.virtualText": true,
+	"diagnostic.virtualTextPrefix": " ﱢ ",
+	"diagnostic.virtualTextCurrentLineOnly": false,
+	"diagnostic.messageDelay": 100,
+	"diagnostic.errorSign": " ",
+	"diagnostic.warningSign": " ",
+	"diagnostic.infoSign": " ",
+	"diagnostic.hintSign": " ",
+	"diagnostic.checkCurrentLine": true,
+	"diagnostic.floatConfig": {
+		"focusable": false
+	},
+
+	"suggest.noselect": false,
+
+	"hover.floatConfig": {
+		"focusable": false
+	},
+
+	"notification.focusable": false,
+	"notification.statusLineProgress": true,
+
+	"signature.enable": true,
+	"signature.target": "float",
+	"codeLens.enable": false,
+
+	"coc.preferences.enableMessageDialog": false,
+	"coc.preferences.enableMarkdown": true,
+	"coc.preferences.formatOnSaveFiletypes": [
+		"c",
+		"go",
+		"cpp",
+		"zig",
+		"typescript",
+		"typescriptreact"
+	],
+
+	"inlayHint.enable": false,
+
+	"clangd.arguments": [
+		"-header-insertion=never"
+	],
+
+	"[c][cpp][zig]": {
+		"semanticTokens.enable": true
+	},
+
+	"Lua.workspace.maxPreload": 1048576,
+	"Lua.workspace.preloadFileSize": 10240,
+	"Lua.workspace.checkThirdParty": false,
+	"Lua.runtime.version": "LuaJIT",
+	"Lua.diagnostics.globals": [
+		"vim"
+	],
+	"Lua.diagnostics.disable": [
+		"lowercase-global"
+	],
+	"Lua.workspace.library": {
+		"/usr/share/nvim/runtime/lua": true,
+		"/usr/share/nvim/runtime/lua/vim/lsp": true
+	},
+
+	"go.goplsUseDaemon": false,
+	"go.goplsOptions": {
+		"staticcheck": true,
+		"semanticTokens": false,
+		"directoryFilters": [
+			"-vendor"
+		],
+		"hoverKind": "SingleLine",
+		"linksInHover": false,
+		"usePlaceholders": true
+	},
+
+	"list.source.grep.defaultArgs": [
+		"--hidden",
+		"--ignore-case"
+	],
+	"list.source.files.defaultArgs": [
+		"--hidden"
+	],
+
+	"zig.path": "/usr/bin/zls"
+}

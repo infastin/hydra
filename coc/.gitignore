@@ -1,0 +1,6 @@
+extensions/node_modules
+extensions/*-data
+commands
+snippets-mru
+mru
+list*

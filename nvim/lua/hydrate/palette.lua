@@ -1,0 +1,32 @@
+local colors = {
+	red = "#ff869a",
+	tomato = "#BE5046",
+	green = "#8de7ab",
+	yellow = "#ffc880",
+	orange = "#ff9980",
+	blue = "#82b1ff",
+	purple = "#c792ea",
+	periwinkle = "#939ede",
+	cyan = "#89DDFF",
+	pink = "#e88dd8",
+	white = "#bfc7d5",
+	snow = "#ffffff",
+	black = "#292D3E",
+	visual_black = "NONE",
+	comment_grey = "#697098",
+	gutter_fg_grey = "#4B5263",
+	cursor_grey = "#333747",
+	cursor_dark_grey = "#2b2e3b",
+	visual_grey = "#3E4452",
+	menu_grey = "#3E4452",
+	special_grey = "#7486a4",
+	vertsplit = "#181A1F",
+	white_mask_3 = "#474b59",
+
+	error = "#ff5370",
+	warn = "#F78C6C",
+	hint = "#ffcb6b",
+	info = "#82b1ff",
+}
+
+return colors

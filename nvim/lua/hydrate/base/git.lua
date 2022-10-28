@@ -1,0 +1,25 @@
+local git = {
+	gitcommitComment = { fg = C.comment_grey },
+	gitcommitUnmerged = { fg = C.green },
+	gitcommitOnBranch = {},
+	gitcommitBranch = { fg = C.purple },
+	gitcommitDiscardedType = { fg = C.red },
+	gitcommitSelectedType = { fg = C.green },
+	gitcommitHeader = {},
+	gitcommitUntrackedFile = { fg = C.cyan },
+	gitcommitDiscardedFile = { fg = C.red },
+	gitcommitSelectedFile = { fg = C.green },
+	gitcommitUnmergedFile = { fg = C.yellow },
+	gitcommitFile = {},
+	gitcommitSummary = { fg = C.white },
+	gitcommitOverflow = { fg = C.red },
+	gitcommitNoBranch = { link = "gitcommitBranch" },
+	gitcommitUntracked = { link = "gitcommitUntrackedFile" },
+	gitcommitDiscarded = { link = "gitcommitDiscardedFile" },
+	gitcommitSelected = { link = "gitcommitSelectedFile" },
+	gitcommitDiscardedArrow = { link = "gitcommitDiscardedFile" },
+	gitcommitSelectedArrow = { link = "gitcommitSelectedFile" },
+	gitcommitUnmergedArrow = { link = "gitcommitUnmergedFile" },
+}
+
+return git
